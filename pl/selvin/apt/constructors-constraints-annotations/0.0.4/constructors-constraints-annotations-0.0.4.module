@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.apt",
+    "module": "constructors-constraints-annotations",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "constructors-constraints-annotations-0.0.4.jar",
+          "url": "constructors-constraints-annotations-0.0.4.jar",
+          "size": 1452,
+          "sha512": "bd8469a2450453f6a6e2d6a5a35793bc48f00e0a5392e29ed8d8778f8fb90861a10992c60605c8dbff14fe50f7cab29deefa810ed790d56480976be6513d9a0a",
+          "sha256": "2c07fc15d778b4cdd729f7a87037f3e44d795f182f943c4949b99bc39c99621a",
+          "sha1": "a3f4364349fface80a42ed7ec6b7d98a4e914390",
+          "md5": "633a27038fbb9f8b4813d083c5192975"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "constructors-constraints-annotations-0.0.4.jar",
+          "url": "constructors-constraints-annotations-0.0.4.jar",
+          "size": 1452,
+          "sha512": "bd8469a2450453f6a6e2d6a5a35793bc48f00e0a5392e29ed8d8778f8fb90861a10992c60605c8dbff14fe50f7cab29deefa810ed790d56480976be6513d9a0a",
+          "sha256": "2c07fc15d778b4cdd729f7a87037f3e44d795f182f943c4949b99bc39c99621a",
+          "sha1": "a3f4364349fface80a42ed7ec6b7d98a4e914390",
+          "md5": "633a27038fbb9f8b4813d083c5192975"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "constructors-constraints-annotations-0.0.4-sources.jar",
+          "url": "constructors-constraints-annotations-0.0.4-sources.jar",
+          "size": 1321,
+          "sha512": "94ad0ac7c98fc0619173dd97f9f09076f3a85a49f022f5e81154a40be946ff2ce4a3803ecaaf91a25b7fd6d1531d087f1183e595e6b5017c1adf24b6491b6ec5",
+          "sha256": "1ae6eaacd0251a1de070992a8f1a27dbadd6e74eba255613902ac2c711383c20",
+          "sha1": "0053bf4aeeb4d109f0c063baecc1139c2120b565",
+          "md5": "685b9db2cc2ea896e0f0078858c10f39"
+        }
+      ]
+    }
+  ]
+}
