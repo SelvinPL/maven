@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.android",
+    "module": "auto-content-provider",
+    "version": "1.5.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auto-content-provider-1.5.3.aar",
+          "url": "auto-content-provider-1.5.3.aar",
+          "size": 29481,
+          "sha512": "c06d5900f6a12104b24ff8d5175209d4bec54917c0c2fdc27b65959f19a429ce6af9796dd4944ee2c7ea46e57e0546a86e34a90a5ce1e9b9da4675e9836ff022",
+          "sha256": "d2b74cfaf1421d77610887d0a44d9586670a687262100420d93cec5a369b107e",
+          "sha1": "297b9a836af1664d0ba32ef31484c1bf5954cbb8",
+          "md5": "0c8614ef5dbf3bc4281f99dd089c67f2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auto-content-provider-1.5.3.aar",
+          "url": "auto-content-provider-1.5.3.aar",
+          "size": 29481,
+          "sha512": "c06d5900f6a12104b24ff8d5175209d4bec54917c0c2fdc27b65959f19a429ce6af9796dd4944ee2c7ea46e57e0546a86e34a90a5ce1e9b9da4675e9836ff022",
+          "sha256": "d2b74cfaf1421d77610887d0a44d9586670a687262100420d93cec5a369b107e",
+          "sha1": "297b9a836af1664d0ba32ef31484c1bf5954cbb8",
+          "md5": "0c8614ef5dbf3bc4281f99dd089c67f2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auto-content-provider-1.5.3-sources.jar",
+          "url": "auto-content-provider-1.5.3-sources.jar",
+          "size": 25899,
+          "sha512": "5079abab58fad9913df335a976b6713f6d5c77f648f0ef35110a56b6de4c2abe0b1b19a56b4b9400c53a6d09464bb98700c6d2e3042ff8ba0ed928afd18b71a1",
+          "sha256": "0a4adffc54aae960438812606e6f11d9af553236157d36979577f73c32209e4d",
+          "sha1": "dce848cc235c69897950d1625b8b1ebc90f87e79",
+          "md5": "fd67793b556cfee2b2e7f6f47da50a2d"
+        }
+      ]
+    }
+  ]
+}
