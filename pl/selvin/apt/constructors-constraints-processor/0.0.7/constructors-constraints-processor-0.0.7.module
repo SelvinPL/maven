@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.apt",
+    "module": "constructors-constraints-processor",
+    "version": "0.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "constructors-constraints-processor-0.0.7.jar",
+          "url": "constructors-constraints-processor-0.0.7.jar",
+          "size": 5816,
+          "sha512": "dc42decfb1c05425259b0cc2b4f6597ee139686849833c5c9d8cae848938a325659c0d30311c279e575fedca3dd7bd4ac81e363288fec8c183042ae9875c042c",
+          "sha256": "ed8096e1a8e4e1137c4d678b4f4cfc3ccdc9752ac708fea7f109de2e6486f072",
+          "sha1": "a1dee3e48a920269fb9a5ac7a3e0858dbe61617c",
+          "md5": "7ce946cf6bbe1ecd95ce1b8534c9af97"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "pl.selvin.apt",
+          "module": "constructors-constraints-annotations",
+          "version": {
+            "requires": "0.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "constructors-constraints-processor-0.0.7.jar",
+          "url": "constructors-constraints-processor-0.0.7.jar",
+          "size": 5816,
+          "sha512": "dc42decfb1c05425259b0cc2b4f6597ee139686849833c5c9d8cae848938a325659c0d30311c279e575fedca3dd7bd4ac81e363288fec8c183042ae9875c042c",
+          "sha256": "ed8096e1a8e4e1137c4d678b4f4cfc3ccdc9752ac708fea7f109de2e6486f072",
+          "sha1": "a1dee3e48a920269fb9a5ac7a3e0858dbe61617c",
+          "md5": "7ce946cf6bbe1ecd95ce1b8534c9af97"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "constructors-constraints-processor-0.0.7-sources.jar",
+          "url": "constructors-constraints-processor-0.0.7-sources.jar",
+          "size": 3031,
+          "sha512": "228e8bf70dd3e3a6b007fe7fadf240fdeb0cc2023e0203e33a4c9b6778d250073d797b8534e5f4abe8783ceac48c8c7b96ab71b84e3bdcd67ed0dd9e1bc69aed",
+          "sha256": "7f353a5de9cdad628417eedf86ab67de9a6230c7f2dd18da8d2ad65d2f7b6de1",
+          "sha1": "17b7a477f187e44bd4ede7d4cafe05155617e029",
+          "md5": "e07828068ba3d66950e5562e4fde94e5"
+        }
+      ]
+    }
+  ]
+}
