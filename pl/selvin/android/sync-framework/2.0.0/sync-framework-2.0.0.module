@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.android",
+    "module": "sync-framework",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.5"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "pl.selvin.android",
+          "module": "auto-content-provider",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sync-framework-2.0.0.aar",
+          "url": "sync-framework-2.0.0.aar",
+          "size": 29276,
+          "sha512": "2a5798915d3f71dfed65ccdbfbd4a9448b20052a02265318b293c4713939d65c115bdaf98d0759c3d0c522714b725786cd8cf969e67b28788f852b62150ac71f",
+          "sha256": "caa28101fd8e62909c01c5dad9a3be1847ffd0f5a986f25e92eb19f494de4153",
+          "sha1": "6cd11b8637f2d18b9e94b750690ff99c1492a573",
+          "md5": "f680f654aff44604fcd0866586ed6243"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.13.5"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "pl.selvin.android",
+          "module": "auto-content-provider",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sync-framework-2.0.0.aar",
+          "url": "sync-framework-2.0.0.aar",
+          "size": 29276,
+          "sha512": "2a5798915d3f71dfed65ccdbfbd4a9448b20052a02265318b293c4713939d65c115bdaf98d0759c3d0c522714b725786cd8cf969e67b28788f852b62150ac71f",
+          "sha256": "caa28101fd8e62909c01c5dad9a3be1847ffd0f5a986f25e92eb19f494de4153",
+          "sha1": "6cd11b8637f2d18b9e94b750690ff99c1492a573",
+          "md5": "f680f654aff44604fcd0866586ed6243"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sync-framework-2.0.0-sources.jar",
+          "url": "sync-framework-2.0.0-sources.jar",
+          "size": 16212,
+          "sha512": "ca3d3929dc22cd239d7051dd8ef42cfe8c4f10d3796c211dba5f6d7e5eafecc34af4c1dba54bdd1e07fe14b244fb43bfd661adbb94282d23dad68acb44cc41e0",
+          "sha256": "8fdcf0ed998b0b7bbee981e99365ccccb3f79175167d0e14c17c5ab0ea5cefea",
+          "sha1": "46946140e88b3ce804baf948771aa8ac12746467",
+          "md5": "541ff3563b8aa29f662e9fa70c5d64da"
+        }
+      ]
+    }
+  ]
+}
