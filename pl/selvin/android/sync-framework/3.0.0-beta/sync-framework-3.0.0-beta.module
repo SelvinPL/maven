@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.android",
+    "module": "sync-framework",
+    "version": "3.0.0-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "pl.selvin.android",
+          "module": "auto-content-provider",
+          "version": {
+            "requires": "3.0.0-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sync-framework-3.0.0-beta.aar",
+          "url": "sync-framework-3.0.0-beta.aar",
+          "size": 46802,
+          "sha512": "2a230bdcb1c3675f6d92a25494670e8cfc3894b8785eaceb86806bb6832b238e5c9b81438ab9cda5520f50b3f85b0c2c7e5ba35e09a05ca33b51deb4f911d4ab",
+          "sha256": "ad4c6b37742d3202f7c8fda9f80144b1f65339fbdfb157604bec7f3c22880b19",
+          "sha1": "4bea9ea627b7a0e6cda4b706d83cd9a03a4099ff",
+          "md5": "fb52fbf7d908fc8659cf777a62597ebd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.5.1"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.6.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.16.0"
+          }
+        },
+        {
+          "group": "pl.selvin.android",
+          "module": "auto-content-provider",
+          "version": {
+            "requires": "3.0.0-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sync-framework-3.0.0-beta.aar",
+          "url": "sync-framework-3.0.0-beta.aar",
+          "size": 46802,
+          "sha512": "2a230bdcb1c3675f6d92a25494670e8cfc3894b8785eaceb86806bb6832b238e5c9b81438ab9cda5520f50b3f85b0c2c7e5ba35e09a05ca33b51deb4f911d4ab",
+          "sha256": "ad4c6b37742d3202f7c8fda9f80144b1f65339fbdfb157604bec7f3c22880b19",
+          "sha1": "4bea9ea627b7a0e6cda4b706d83cd9a03a4099ff",
+          "md5": "fb52fbf7d908fc8659cf777a62597ebd"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sync-framework-3.0.0-beta-sources.jar",
+          "url": "sync-framework-3.0.0-beta-sources.jar",
+          "size": 30618,
+          "sha512": "8fae61863755255f70c23aff9fa856c737b23b649b4fdaff902197101b96e58da446218d28123b24dd41c755046cfa0fa1c99df82e5e500ea7f042aacd75ef76",
+          "sha256": "2ece9899081ae6fa60baa69e334703e35137400b2ee0de1685664e96c062b244",
+          "sha1": "7af275680ce20d27d1e7bec38dcb1a4846bc0676",
+          "md5": "b772693d6acd0f1650fffe542e3719d5"
+        }
+      ]
+    }
+  ]
+}
