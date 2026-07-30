@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.android",
+    "module": "sync-framework",
+    "version": "3.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "pl.selvin.android",
+          "module": "auto-content-provider",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sync-framework-3.0.1.aar",
+          "url": "sync-framework-3.0.1.aar",
+          "size": 49091,
+          "sha512": "af4b5c33b40cc654dfd687ddec50448534bc8f7f1b91efbe405d55c6cf1028e652603e7e734553264a12e3269d86d0e52ee1a487563f3584d971991a882b60ff",
+          "sha256": "4c04e96873fe174d1774b9c4790a41552770622355e60deaeede09aa29ba7f7d",
+          "sha1": "e88f00c69a9d8bbc3cb8af658bf840bacf65a018",
+          "md5": "c322152808394fb784041e34009e0e54"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.19.0"
+          }
+        },
+        {
+          "group": "pl.selvin.android",
+          "module": "auto-content-provider",
+          "version": {
+            "requires": "3.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sync-framework-3.0.1.aar",
+          "url": "sync-framework-3.0.1.aar",
+          "size": 49091,
+          "sha512": "af4b5c33b40cc654dfd687ddec50448534bc8f7f1b91efbe405d55c6cf1028e652603e7e734553264a12e3269d86d0e52ee1a487563f3584d971991a882b60ff",
+          "sha256": "4c04e96873fe174d1774b9c4790a41552770622355e60deaeede09aa29ba7f7d",
+          "sha1": "e88f00c69a9d8bbc3cb8af658bf840bacf65a018",
+          "md5": "c322152808394fb784041e34009e0e54"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "sync-framework-3.0.1-sources.jar",
+          "url": "sync-framework-3.0.1-sources.jar",
+          "size": 32075,
+          "sha512": "ec0b05a490884022e3d79a5b319d9b0ae982c01d023bec3684687f3cc5e0e973a345e61f09ca738d9b2a555825aa0dd8c59afbd8ff2f557b41887850844e3084",
+          "sha256": "1e624d4a283f6e52b9f7b4056c1060ee24d7d02f9cb0946ff4848809c0412000",
+          "sha1": "14c6c650a2758954c05c9410f9dc6c2c13f16c77",
+          "md5": "ae3b4100df7b87962f775ecf48fe1620"
+        }
+      ]
+    }
+  ]
+}
