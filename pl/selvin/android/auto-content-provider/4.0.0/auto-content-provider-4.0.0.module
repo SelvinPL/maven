@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "pl.selvin.android",
+    "module": "auto-content-provider",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auto-content-provider-4.0.0.aar",
+          "url": "auto-content-provider-4.0.0.aar",
+          "size": 30473,
+          "sha512": "f2763e7abb44b2e632843eb5060a4a59be50f6ca6db9aef0d74ca3c691df667445b02593a0d5e461e148c8a06fcf43ea2cb88ba307d509017bcdbe440c8193a4",
+          "sha256": "0e67924a960c6cc99f09608fd5cd6b97dd1b366d3e45064738d911c3115a9abe",
+          "sha1": "8f42673655d3b0f989c6a68ad2f477191e8f4969",
+          "md5": "30075f81c65db19f59b7d81e061d7cb7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.sqlite",
+          "module": "sqlite",
+          "version": {
+            "requires": "2.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auto-content-provider-4.0.0.aar",
+          "url": "auto-content-provider-4.0.0.aar",
+          "size": 30473,
+          "sha512": "f2763e7abb44b2e632843eb5060a4a59be50f6ca6db9aef0d74ca3c691df667445b02593a0d5e461e148c8a06fcf43ea2cb88ba307d509017bcdbe440c8193a4",
+          "sha256": "0e67924a960c6cc99f09608fd5cd6b97dd1b366d3e45064738d911c3115a9abe",
+          "sha1": "8f42673655d3b0f989c6a68ad2f477191e8f4969",
+          "md5": "30075f81c65db19f59b7d81e061d7cb7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "auto-content-provider-4.0.0-sources.jar",
+          "url": "auto-content-provider-4.0.0-sources.jar",
+          "size": 25807,
+          "sha512": "0a1cff8a2a880bd77519213a3b2c854737541c9a42f3e3052fc1def044fb7c5d39d12e5d36f6bbb6c18dbe6426c19e1ea81d93d2b4be77dd1a3dd2a361b51baf",
+          "sha256": "f0f18c5efd4bb8fdeb28bbc3dbbab8ecc0f919c0ac89f6392ebe34192c8e96e6",
+          "sha1": "905a8d8f8807d5727b218872521ee4ba3908f455",
+          "md5": "2a50b08cc296db529e4caf5ae7feb5be"
+        }
+      ]
+    }
+  ]
+}
